@@ -10,7 +10,7 @@ header {
     padding-left: 20px;
     padding-right: 20px;
     background-color: rgb(163, 0, 0);
-    
+
 }
 
 h1 {
@@ -38,6 +38,7 @@ article {
 article img {
     width: 100%;
 }
+
 section {
     background-color: rgb(255, 170, 170);
 
@@ -67,19 +68,59 @@ section {
 
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(163, 0, 0);
+    color: white;
+    text-align: center;
+
+}
+
+#login {
+    background-color: rgb(255, 130, 130);
+    border-radius: 5%;
+    border-style: groove;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#registro {
+    background-color: rgb(255, 130, 130);
+    border-radius: 5%;
+    border-style: groove;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Media Query para pantallas pequeñas (hasta 600px de ancho) */
 @media screen and (max-width: 600px) {
     body {
-        font-size: 14px; /* Reducimos el tamaño de fuente para pantallas pequeñas */
+        font-size: 14px;
+        /* Reducimos el tamaño de fuente para pantallas pequeñas */
     }
 
     header {
-        text-align: center; /* Centrar el contenido en el header */
+        text-align: center;
+        /* Centrar el contenido en el header */
     }
 
     .contenedorImg img {
-        width: 100%; /* Aseguramos que las imágenes ocupen todo el ancho de la pantalla */
+        width: 100%;
+        /* Aseguramos que las imágenes ocupen todo el ancho de la pantalla */
     }
 
     .textoLike {
@@ -89,10 +130,12 @@ section {
     }
 
     .textoLike i {
-        font-size: 24px; /* Hacemos los íconos más grandes para facilitar la interacción */
+        font-size: 24px;
+        /* Hacemos los íconos más grandes para facilitar la interacción */
     }
 
     .textoLike span {
-        font-size: 18px; /* Ajustamos el tamaño de los contadores */
+        font-size: 18px;
+        /* Ajustamos el tamaño de los contadores */
     }
 }
