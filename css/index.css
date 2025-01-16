@@ -1,0 +1,98 @@
+/* {
+    border: 1px solid black;
+}
+*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(163, 0, 0);
+    
+}
+
+h1 {
+    font-size: 50px;
+    background-color: rgb(255, 130, 130);
+    border-radius: 5%;
+    border-style: groove;
+
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    border-style: groove;
+
+}
+
+article {
+    background-color: rgb(250, 200, 200);
+    width: 30%;
+    margin: 20px;
+}
+
+article img {
+    width: 100%;
+}
+section {
+    background-color: rgb(255, 170, 170);
+
+
+}
+
+#seccionFotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: first baseline;
+}
+
+.contenedorImg {
+    height: 280px;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+.textoLike {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+/* Media Query para pantallas pequeñas (hasta 600px de ancho) */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Reducimos el tamaño de fuente para pantallas pequeñas */
+    }
+
+    header {
+        text-align: center; /* Centrar el contenido en el header */
+    }
+
+    .contenedorImg img {
+        width: 100%; /* Aseguramos que las imágenes ocupen todo el ancho de la pantalla */
+    }
+
+    .textoLike {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textoLike i {
+        font-size: 24px; /* Hacemos los íconos más grandes para facilitar la interacción */
+    }
+
+    .textoLike span {
+        font-size: 18px; /* Ajustamos el tamaño de los contadores */
+    }
+}
