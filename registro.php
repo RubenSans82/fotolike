@@ -17,8 +17,8 @@ include("partials/header.php");
 ?>
 
 <main>
-    <div id="registro">
-    <form action="" method="post">
+    
+    <form action="" id="registro" method="post">
         <label for="nombre">Nombre:</label>
         <input required placeholder="Nombre" type="text" name="nombre" id="nombre" required>
         <label for="email">Email:</label>
@@ -27,7 +27,7 @@ include("partials/header.php");
         <input required placeholder="contraseña" type="password" name="password" id="password" required>
         <input type="submit" value="Registrarse">
     </form>
-    </div>
+    
 </main>
 </body>
 <?php

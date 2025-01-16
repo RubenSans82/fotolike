@@ -13,6 +13,11 @@ header {
 
 }
 
+header a {
+    color: white;
+    text-decoration: none;
+}
+
 h1 {
     font-size: 50px;
     background-color: rgb(255, 130, 130);
@@ -83,10 +88,12 @@ footer {
     border-radius: 5%;
     border-style: groove;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -97,14 +104,46 @@ footer {
     border-radius: 5%;
     border-style: groove;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
+
+#nuevaFoto {
+    background-color: rgb(255, 130, 130);
+    border-radius: 5%;
+    border-style: groove;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#registro input {
+    margin: 5px;
+}
+
+#login input {
+    margin: 5px;
+}
+
+#nuevaFoto input {
+    margin: 5px;
+}
+
+
 
 /* Media Query para pantallas pequeñas (hasta 600px de ancho) */
 @media screen and (max-width: 600px) {

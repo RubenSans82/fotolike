@@ -14,5 +14,5 @@
 <body>
     <header>
         <h1>Fotolike</h1>
-        <img id="logo" src="img/logo.png" alt="Logo Fakebook">
+        <a href="login.php"><img id="logo" src="img/logo.png" alt="Logo Fakebook"></a>
     </header>
